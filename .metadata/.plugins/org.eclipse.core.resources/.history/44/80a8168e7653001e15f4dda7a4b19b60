@@ -1,0 +1,15 @@
+
+public class PositionCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int num = 374;
+		int nOf100 = num/100;
+		int nOf10 = num/10%10;
+		int nOf1 = num%10;
+		
+		System.out.printf("정수 %d의 각 자리 숫자의 총합: %d", num, nOf100 + nOf10 + nOf1);
+	}
+
+}

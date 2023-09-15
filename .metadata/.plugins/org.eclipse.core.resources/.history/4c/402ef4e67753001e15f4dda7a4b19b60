@@ -1,0 +1,12 @@
+
+public class PositionCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		float a = -9.81f, t = 5.00f, v0 = 0.0f, x0 = 1000.00f;
+		double x = 0.5*a*t*t + v0*t + x0;
+		System.out.printf("자유낙하 물체의 %.2f초 후 위치는 %.2fm입니다.", t, x);
+	}
+
+}
